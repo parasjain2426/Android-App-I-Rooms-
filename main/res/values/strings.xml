@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">R&amp;Q</string>
+    <string name="name_of_room">Name Of Room</string>
+    <string name="want_to_add_rooms_to_earn">Want To Add Rooms To Earn?</string>
+    <string name="confirm_your_booking">Confirm Your Booking</string>
+    <string name="availability_of_room_at_desired_dates">Availability at Desired Dates</string>
+    <string name="paytm_info">Note: Paytm The Amount to 8171733710 and Type the transaction id below to proceed</string>
+    <string name="title">Payment Process</string>
+    <string name="process">Click The Above Paytm Button to get redirected to Paytm App to Pay Required Amount to 8171733710.After Paying the Amount Exit from the Paytm App and click the Refresh Button to Check Payment status, if Successful you will be redirected to Information Screen to complete the room booking.Please Donot Close the App during Payment</string>
+</resources>

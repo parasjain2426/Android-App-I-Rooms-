@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.roomsandquality.rq">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/grp1"
+        android:label="I-Rooms"
+        android:roundIcon="@mipmap/grp1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".notifyscr"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".splash_screen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".roombook"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".roompay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".roomUpload"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payscreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rooms"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".finallybook"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

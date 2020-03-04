@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".roomUpload">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/upim"
+        android:scaleType="center"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Fill the Details and Upload 2 Photos Only."
+        android:layout_below="@+id/imageView"
+        android:textAlignment="center"
+        android:id="@+id/info"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:background="@drawable/bg5"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/buttonrounded"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_weight="4"
+            android:hint="Enter Room No./name"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonrounded"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:textColorHint="#FF26a69a" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/buttonrounded"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_weight="4"
+            android:background="@drawable/buttonrounded"
+            android:hint="Enter Your Name"
+            android:textColor="#000000"
+            android:textColorHint="#FF26a69a" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/buttonrounded"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+        <EditText
+            android:id="@+id/phoneno"
+            android:layout_width="250dp"
+            android:padding="10dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonrounded"
+            android:layout_margin="10dp"
+            android:layout_weight="4"
+            android:hint="Enter Your Contact No."
+            android:textColor="#000000"
+            android:textColorHint="#FF26a69a" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/buttonrounded"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttonrounded"
+            android:hint="Enter Room Location"
+            android:textColor="#000000"
+            android:textColorHint="#FF26a69a" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/buttonrounded"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:hint="Enter Room Price (/day)"
+            android:background="@drawable/buttonrounded"
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#FF26a69a" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonChoose"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg3"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:layout_marginTop="20dp"
+                android:text="Choose" />
+
+            <Button
+                android:id="@+id/buttonUpload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg2"
+                android:text="Upload" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

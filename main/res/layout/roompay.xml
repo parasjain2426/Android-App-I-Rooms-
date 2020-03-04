@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:background="@drawable/book"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#ffffff"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:id="@+id/ts"
+        android:shadowRadius="2.0"
+        android:layout_gravity="center"
+        android:text="@string/confirm_your_booking"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paytm_info"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="#808080"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg6"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/buttonrounded"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+        <EditText
+            android:id="@+id/entername"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonrounded"
+            android:hint="Enter Your Name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#753a80" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/buttonrounded"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+        <EditText
+            android:id="@+id/phonenum"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonrounded"
+            android:hint="Enter Contact No."
+            android:inputType="number|textPhonetic"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#753a80" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/buttonrounded"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+        <EditText
+            android:id="@+id/addr"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonrounded"
+            android:hint="Enter Email"
+            android:inputType="textWebEmailAddress"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#753a80" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/buttonrounded"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+        <EditText
+            android:id="@+id/transactionid"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonrounded"
+            android:hint="Paytm Transaction Id"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#753a80"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonrounded"
+            android:padding="10dp"
+            android:text="Sign-In"
+            android:textColor="#753a88"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/transactbut"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonrounded"
+            android:padding="10dp"
+            android:text = "Confirm Booking"
+            android:layout_marginBottom="20dp"
+            android:textColor="#753a88"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
